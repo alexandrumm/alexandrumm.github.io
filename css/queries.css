@@ -3,7 +3,14 @@ rem and em do NOT depend on html font-size in media queries !
 Instead 1 rem = 1 em = 16px
 */
 
-/* Breakpoint 4 - below 704px (smaller tablets) */
+/* Breakpoint - below 904px (tablets) */
+@media (max-width: 56.5em) {
+  .description-text {
+    line-height: 1.2;
+  }
+}
+
+/* Breakpoint - below 704px (smaller tablets) */
 @media (max-width: 44em) {
   .skill-details-heading {
     font-size: 1.6rem;
@@ -39,10 +46,6 @@ Instead 1 rem = 1 em = 16px
 
   .skill-be-developer .skill-icon {
     margin-bottom: 2.8rem;
-  }
-
-  .description-text {
-    line-height: 1.2;
   }
 }
 
